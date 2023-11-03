@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "sfpro";
+    src: url(/font/SF-Pro-Display-Medium.otf);
+}
+
+@font-face {
+    font-family: a;
+    src: url(/font/Aeronixsa-Regular.otf);
+}
+body{
+    background-color: #000000;
+    font-family: "sfpro";
+}
+
+.navbar{
+    background-color: #673de6;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50%;
+    border: solid 2px #8258ff;
+}
+
+.navbar  a{
+    color:rgb(255, 255, 255)
+}
+
+.navbar a:hover{
+    color:#000000;
+}
+
+.eu {
+    max-width: 100%; 
+    height: auto; 
+    margin-top: 5%;
+    display: block; 
+    margin-right: 10%;
+}
+
+@media (min-width: 768px) { 
+    .eu {
+      height: 500px; 
+    }
+  }
+  
+.textotitulo{
+    color: #ffffff;
+
+}
+.TituloCor{
+    color: #673de6;
+}
+
+.btn-conheca {
+    border: solid 1px #673de6;
+    color: white;
+    background: none;
+    padding: 9px;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s, box-shadow 0.3s; /* Incluindo box-shadow na transição */
+}
+
+.btn-conheca:hover {
+    border-color: #8258ff;
+    color: white; /* 'rgb(255, 255, 255)' foi simplificado para 'white' */
+    background-color: #673de6;
+    box-shadow: 0 0 20px 20px rgba(109, 6, 219, 0.471);
+}
+
+.fa-arrow-right{
+    margin-left: 10px;
+}
+
+.icon{
+    width:170px;
+}
+
+.space{
+    margin-top: 300px;
+}
+
+.cor-roxa{
+    color: #673de6;
+}
+
+.cor-branca{
+    color: #ffffff;
+}
+
+.lead {
+    word-wrap: break-word;
+  }
+  
+.title{
+    font-family: sfpro;
+    font-size: 50px;
+}
+
+#Sobre-mim{
+    border: solid 4px #393939;
+    border-radius: 15px;
+    padding: 100px;
+    background-color: rgb(25, 24, 24);
+    margin-bottom: 100px;
+}
+
+.txtlink{
+    text-decoration: none;
+}
+
+.modal-backdrop.show {
+    transition: none; 
+}
+
+
+.modal-backdrop{
+    opacity: 1 !important; /* Use !important para garantir que a regra de opacidade seja aplicada */
+    background-color: rgba(255, 255, 255, 0.087); /* Cor de fundo branco com opacidade */
+    backdrop-filter: blur(5px); /* Efeito de desfoque */
+}
