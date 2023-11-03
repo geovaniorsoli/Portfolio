@@ -19,6 +19,7 @@ body{
     margin-top: 20px;
     width: 50%;
     border: solid 2px #8258ff;
+    
 }
 
 .navbar  a{
@@ -32,9 +33,10 @@ body{
 .eu {
     max-width: 100%; 
     height: auto; 
-    margin-top: 5%;
+    margin-top: 10%;
     display: block; 
     margin-right: 10%;
+
 }
 
 @media (min-width: 768px) { 
@@ -117,4 +119,65 @@ body{
     opacity: 1 !important; /* Use !important para garantir que a regra de opacidade seja aplicada */
     background-color: rgba(255, 255, 255, 0.087); /* Cor de fundo branco com opacidade */
     backdrop-filter: blur(5px); /* Efeito de desfoque */
+}
+
+.project-session {
+    background-image: url('/img/background/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px;
+  }
+  
+.textoclaro{
+    color: #a9c2fd;
+    font-size: 70px;
+}
+
+.card{
+    opacity: 1 !important; /* Use !important para garantir que a regra de opacidade seja aplicada */
+    background-color: rgba(255, 255, 255, 0.313); /* Cor de fundo branco com opacidade */
+    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    color: rgb(255, 255, 255);
+}
+
+.btn-fechar{
+   background: none;
+   border: none;
+   color: rgb(239, 46, 46);
+   font-size: 20px;
+}
+
+.dev{
+    color: rgb(255, 255, 255);
+    background-color: #d44a4a;
+    border-radius: 3px;
+    border: 2px solid #de3d3d;
+}
+
+.title-card{
+    color: #2a2a2a;
+    font-size: 30px;
+    padding:5px;   
+    margin-top: 10px;
+}
+
+.description-card{
+    color:#646464;
+    padding:5px;   
+}
+
+.button-link-card{
+    background: none;
+    border: none;
+    color: #3c77ff;
+    transition: color;
+    transition: color 0.3s ease, border-bottom 0.3s ease; /* Adicione uma duração e tipo de easing */
+    border-bottom: 2px solid transparent;
+}
+
+.button-link-card:hover{
+    color: #002479;
+    border-bottom: 2px solid #3c77ff;
+    
 }
