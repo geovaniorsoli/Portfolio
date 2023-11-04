@@ -18,7 +18,7 @@ body {
     margin-top: 20px;
     width: 50%;
     border: solid 2px #8258ff;
-   
+
 
 }
 
@@ -30,6 +30,7 @@ body {
     color: #000000;
 }
 
+/* img  */
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -40,6 +41,7 @@ body {
 }
 
 
+/* texto  */
 .textotitulo {
     color: #ffffff;
 
@@ -47,35 +49,6 @@ body {
 
 .TituloCor {
     color: #673de6;
-}
-
-.btn-conheca {
-    border: solid 1px #673de6;
-    color: white;
-    background: none;
-    padding: 9px;
-    border-radius: 5px;
-    transition: background-color 0.3s, border-color 0.3s, color 0.3s, box-shadow 0.3s;
-    /* Incluindo box-shadow na transição */
-}
-
-.btn-conheca:hover {
-    border-color: #8258ff;
-    color: white;
-    background-color: #673de6;
-    box-shadow: 0 0 20px 20px rgba(109, 6, 219, 0.471);
-}
-
-.fa-arrow-right {
-    margin-left: 10px;
-}
-
-.icon {
-    width: 170px;
-}
-
-.space {
-    margin-top: 300px;
 }
 
 .cor-roxa {
@@ -95,54 +68,13 @@ body {
     font-size: 50px;
 }
 
-#Sobre-mim {
-    border: solid 4px #393939;
-    border-radius: 15px;
-    padding: 100px;
-    background-color: rgb(25, 24, 24);
-    margin-bottom: 100px;
-}
-
 .txtlink {
     text-decoration: none;
-}
-
-.modal-backdrop.show {
-    transition: none;
-}
-
-
-.modal-backdrop {
-    opacity: 1 !important;
-    background-color: rgba(255, 255, 255, 0.087);
-    backdrop-filter: blur(5px);
-}
-
-.project-session {
-    background-image: url(../img/background/background.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 200px;
 }
 
 .textoclaro {
     color: #a9c2fd;
     font-size: 50px;
-}
-
-.card {
-    opacity: 1 !important;
-    background-color: rgba(255, 255, 255, 0.313);
-    backdrop-filter: blur(10px);
-    color: rgb(255, 255, 255);
-}
-
-.btn-fechar {
-    background: none;
-    border: none;
-    color: rgb(239, 46, 46);
-    font-size: 20px;
 }
 
 .dev {
@@ -164,6 +96,22 @@ body {
     padding: 5px;
 }
 
+
+.emailspam {
+    float: right;
+}
+
+.texto {
+    text-align: justify;
+}
+
+.destaque {
+    color: #a081ff;
+}
+
+
+/* botao */
+
 .button-link-card {
     background: none;
     border: none;
@@ -179,41 +127,32 @@ body {
 
 }
 
-.fa-arrow-down {
-    padding: 10px;
-    margin-left: 20px;
-
+.btn-conheca {
+    border: solid 1px #673de6;
+    color: white;
+    background: none;
+    padding: 9px;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s, box-shadow 0.3s;
+    /* Incluindo box-shadow na transição */
 }
 
-/* media */
 
-@media only screen and (max-width: 767px) {
-    #Sobre-mim {
-        padding: 10px;
-        width: 340px;
-    }
-
-    .star{
-        display: none;
-    }
-
-    .project-session{
-        padding: 20px;
-    }
+.btn-conheca:hover {
+    border-color: #8258ff;
+    color: white;
+    background-color: #673de6;
+    box-shadow: 0 0 20px 20px rgba(109, 6, 219, 0.471);
 }
 
-/* section */
+.btn-fechar {
+    background: none;
+    border: none;
+    color: rgb(239, 46, 46);
+    font-size: 20px;
+}
 
-#contato{
-        background:#000000;
-        width: 100%;
-        height: 500px;
-        color: #ffffff;
-      }
-
-/* btn */
-
-.linkedIn{
+.linkedIn {
     text-decoration: none;
     color: #5177f5;
     padding: 10px;
@@ -223,13 +162,13 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
-.linkedIn:hover{
+.linkedIn:hover {
     background-color: #3766ff;
-    
+
     color: white;
 }
 
-.github{
+.github {
     text-decoration: none;
     color: #68696d;
     padding: 10px;
@@ -238,7 +177,8 @@ body {
     width: 320px;
     transition: color 0.2s ease;
 }
-.github:hover{
+
+.github:hover {
     background-color: #68696d;
     color: white;
 }
@@ -260,7 +200,7 @@ body {
 }
 
 
-.cv{
+.cv {
     text-decoration: none;
     color: #1649f2;
     padding: 10px;
@@ -269,31 +209,98 @@ body {
     width: 320px;
     transition: color 0.3s ease;
 }
-.cv:hover{
-    background-color:#1649f2 ;
+
+.cv:hover {
+    background-color: #1649f2;
     color: white;
 }
+
+
+/* icon */
+.fa-arrow-right {
+    margin-left: 10px;
+}
+
+.icon {
+    width: 170px;
+}
+
+/* estrutura */
+.space {
+    margin-top: 300px;
+}
+
+#Sobre-mim {
+    border: solid 4px #393939;
+    border-radius: 15px;
+    padding: 100px;
+    background-color: rgb(25, 24, 24);
+    margin-bottom: 100px;
+}
+
+.fa-arrow-down {
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+/* background */
+.modal-backdrop.show {
+    transition: none;
+}
+
+.modal-backdrop {
+    opacity: 1 !important;
+    background-color: rgba(255, 255, 255, 0.087);
+    backdrop-filter: blur(5px);
+}
+
+.project-session {
+    background-image: url(../img/background/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 200px;
+}
+
+.card {
+    opacity: 1 !important;
+    background-color: rgba(255, 255, 255, 0.313);
+    backdrop-filter: blur(10px);
+    color: rgb(255, 255, 255);
+}
+
+
+/* media */
+
+@media only screen and (max-width: 767px) {
+    #Sobre-mim {
+        padding: 10px;
+        width: 340px;
+    }
+
+    .star {
+        display: none;
+    }
+
+    .project-session {
+        padding: 20px;
+    }
+}
+
+/* section */
+
+#contato {
+    background: #000000;
+    width: 100%;
+    height: 500px;
+    color: #ffffff;
+}
+
+/* btn */
+
 
 .alert-fade-out {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
-}
-
-
-
-
-.emailspam {
-    float: right;
-}
-
-.texto{
-    text-align: justify;
-}
-
-.destaque{
-    color: #a081ff;
-}
-
-.icon{
-    color: white;
 }
