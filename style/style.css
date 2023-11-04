@@ -1,6 +1,6 @@
 @font-face {
     font-family: "sfpro";
-    src: url(/font/SF-Pro-Display-Medium.otf);
+    src: url(./font/SF-Pro-Display-Medium.otf);
 }
 
 body{
@@ -60,7 +60,7 @@ body{
 
 .btn-conheca:hover {
     border-color: #8258ff;
-    color: white; /* 'rgb(255, 255, 255)' foi simplificado para 'white' */
+    color: white; 
     background-color: #673de6;
     box-shadow: 0 0 20px 20px rgba(109, 6, 219, 0.471);
 }
@@ -112,9 +112,9 @@ body{
 
 
 .modal-backdrop{
-    opacity: 1 !important; /* Use !important para garantir que a regra de opacidade seja aplicada */
-    background-color: rgba(255, 255, 255, 0.087); /* Cor de fundo branco com opacidade */
-    backdrop-filter: blur(5px); /* Efeito de desfoque */
+    opacity: 1 !important; 
+    background-color: rgba(255, 255, 255, 0.087); 
+    backdrop-filter: blur(5px); 
 }
 
 .project-session {
@@ -131,9 +131,9 @@ body{
 }
 
 .card{
-    opacity: 1 !important; /* Use !important para garantir que a regra de opacidade seja aplicada */
-    background-color: rgba(255, 255, 255, 0.313); /* Cor de fundo branco com opacidade */
-    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    opacity: 1 !important; 
+    background-color: rgba(255, 255, 255, 0.313);
+    backdrop-filter: blur(10px);
     color: rgb(255, 255, 255);
 }
 
