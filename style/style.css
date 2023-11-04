@@ -150,9 +150,9 @@ body{
 
 .dev{
     color: rgb(255, 255, 255);
-    background-color: #d44a4a;
+    background-color: rgb(57, 135, 76);
     border-radius: 3px;
-    border: 2px solid #de3d3d;
+    border: 2px solid rgb(45, 126, 80);
 }
 
 .title-card{
@@ -177,7 +177,12 @@ body{
 }
 
 .button-link-card:hover{
-    color: #002479;
     border-bottom: 2px solid #3c77ff;
     
+}
+
+.fa-arrow-down{
+    padding: 10px;
+    margin-left: 20px;
+
 }
