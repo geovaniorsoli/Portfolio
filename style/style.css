@@ -1,11 +1,11 @@
 @font-face {
     font-family: "sfpro";
-    src: url(/font/SF-Pro-Display-Medium.otf);
+    src: url(./font/SF-Pro-Display-Medium.otf);
 }
 
 @font-face {
     font-family: a;
-    src: url(/font/Aeronixsa-Regular.otf);
+    src: url(./font/Aeronixsa-Regular.otf);
 }
 body{
     background-color: #000000;
@@ -122,7 +122,7 @@ body{
 }
 
 .project-session {
-    background-image: url('/img/background/background.png');
+    background-image: url('./img/background/background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
