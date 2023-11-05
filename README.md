@@ -1,6 +1,6 @@
-# Meu Portfólio no GitHub
+# Meu Portfólio 
 
-Bem-vindo ao meu portfólio no GitHub, me chamo Geovani Orsoli. 
+Bem-vindo ao meu portfólio me chamo Geovani Orsoli. 
 
 ## Introdução
 
