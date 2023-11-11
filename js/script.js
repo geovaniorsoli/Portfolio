@@ -74,3 +74,14 @@ function btnlinkdin() {
 }
 
 btnlinkdin();
+
+function animation(){
+    document.addEventListener('DOMContentLoaded', ()=>{
+        var elementos = document.querySelectorAll('.elementos')
+        elementos.forEach(function(elementos){
+            elementos.classList.add('animado')
+        })
+    })
+}
+
+    animation()
