@@ -70,3 +70,43 @@
     background-color: #161616;
     padding: 40px;
 }
+
+
+@media (max-width: 600px) {
+    .title{
+        color:#006FEE;
+        font-family: semibold;
+        margin-bottom: .5rem;
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .containerCenter{
+        align-items: center;
+        justify-content: start;
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .Card{
+        background-color: #1E1E1E;
+        color: white;
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        border: solid 1px #313030;
+        margin: 2rem auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        display: grid;
+    }
+    .cardBody{
+        padding: 10px;
+    }
+}

@@ -17,7 +17,6 @@
     font-family: semibold;
     margin-bottom: 1.5rem;
     margin-top: 5rem;
-
 }
 
 .title2{
@@ -169,4 +168,37 @@
     color: white;
     border-radius: 5px;
     font-family: semibold;
+    
+}
+
+@media (max-width:600px) {
+    .containerCenter{
+        display: flex;
+        margin: 4rem auto;
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body{
+        background-color: #D9D9D9;
+        height: 1000px;
+    }
+    
+    .title{
+        color:#006FEE;
+        font-family: semibold;
+        align-items: center;
+        margin: 2rem auto;
+        
+    }
+    .socialLinks{
+        display: flex;
+        display: grid;
+        width: 100%;
+    }
+    .gridBtn{
+        margin-left: 0rem;
+    }
 }

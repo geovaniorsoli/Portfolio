@@ -69,8 +69,8 @@ export default function Contato() {
 
                         <div className="col-md-6">
                             <div className={style.gridBtn}>
-                                <h1 className={style.title}>MÍDIA SOCIAIS</h1>
                                 <div className={style.socialLinks}>
+                                <h1 className={style.title}>MÍDIA SOCIAIS</h1>
 
                                     <a href='#'
                                         onMouseOver={() => mouseOn('github')}

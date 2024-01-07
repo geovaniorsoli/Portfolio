@@ -52,3 +52,20 @@
     color: white;
     font-family: semibold;
 }
+
+@media (max-width: 600px){
+    .title{
+        font-size: 3rem;
+        font-family: semibold;
+        color: #E0E0E0;
+        letter-spacing: -2px;
+        margin-left: -5px;
+    }
+
+    .subtitle{
+        font-size: 1.5rem;
+        font-family: regular;
+        color: #A1A1A1;
+        margin-top: -10px;
+    }
+}
