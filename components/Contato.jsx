@@ -53,7 +53,7 @@ export default function Contato() {
                     <div className="row">
                         <div className="col-md-6">
                             <h1 className={style.title}>CONTATOS</h1>
-                            <form>
+                            <form action="https://formspree.io/f/mjvqzowo"method="POST">
                                 <label className={style.subTitleForm} htmlFor="nome">Nome</label>
                                 <input type="text" id='nome' name='nome' className={style.inputForm} />
 
@@ -62,6 +62,8 @@ export default function Contato() {
 
                                 <label className={style.subTitleForm} htmlFor="msg">Escreva uma mensagem!</label>
                                 <textarea id='msg' name='msg' className={style.inputForm} />
+
+                                <button type='submit' className={style.inputButton}> Enviar </button>
                             </form>
                         </div>
 

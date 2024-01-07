@@ -24,8 +24,8 @@ export default function Home() {
                                 </a>
                             </Tooltip>
 
-                            <Tooltip className={style.tooltip} content="Curriculum" color="primary">
-                                <ion-icon name="document-outline" size="large"></ion-icon>
+                            <Tooltip className={style.tooltip} content="Currículo" color="primary">
+                               <a href="/cv/Geovani Orsoli Gongora (CV).pdf" download> <ion-icon name="document-outline" size="large"></ion-icon> </a>
                             </Tooltip>
 
                         </div>

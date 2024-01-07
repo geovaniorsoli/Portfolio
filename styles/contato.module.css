@@ -114,7 +114,7 @@
     cursor: pointer;
     text-align: center;
     color: white;
-    background-color: #3a53d3;
+    background-color: #006FEE;
     border: solid 1px #3061c3;
     padding: 10px;
     border-radius: 5px;
@@ -125,8 +125,8 @@
 }
 
 .buttonCV:hover{
-    background-color: #5066d7;
-    border: solid 1px #3061c3;
+    background-color: #3c92f4;
+    border: solid 1px #006FEE;
 }
 .socialLinks{
     display: flex;
@@ -136,7 +136,25 @@
 
 .gridBtn{
     margin-left: 5rem;
-  
+}
+
+.inputButton{
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: #006FEE;
+    border: solid 1px #3061c3;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    transition: all .1s ease-in-out;
+    margin-top: .5rem;
+    font-family: semibold;
+}
+
+.inputButton:hover{
+    background-color: #3c92f4;
+    border: solid 1px #3c92f4;
 }
 
 /* alert */
