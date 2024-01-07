@@ -1,0 +1,140 @@
+/* container */
+.containerCenter{
+    display: flex;
+    margin: 2rem auto;
+    display: grid;
+    width: 50%;
+}
+
+.body{
+    background-color: #D9D9D9;
+    height: 600px;
+}
+
+/* title */
+.title{
+    color:#006FEE;
+    font-family: semibold;
+    margin-bottom: 1.5rem;
+    margin-top: 5rem;
+
+}
+
+.title2{
+    color:#006FEE;
+    font-family: semibold;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+
+.subTitleForm{
+    color: #252525;
+    font-family: semibold;
+
+}
+
+/* form */
+.inputForm{
+    color: #282828;
+    background-color: #E8E8E8;
+    border: solid 1px #D9D9D9;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+    font-family: regular;
+}
+
+/* btn */
+
+.buttonGithub{
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: #2b2c2b;
+    border: solid 1px #4b4d4b;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all .1s ease-in-out;
+    margin-top: .5rem;
+    font-family: semibold;
+    width: 100%;
+
+}
+
+.buttonGithub:hover{
+    background-color: #3d3e3d;
+    border: solid 1px #6e716e;
+}
+
+.buttonEmail{
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: #c12822;
+    border: solid 1px #d05454;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    transition: all .1s ease-in-out;
+    margin-top: .5rem;
+    font-family: semibold;
+
+
+}
+
+.buttonEmail:hover{
+    background-color: #d6443f;
+    border: solid 1px #c12822;
+}
+
+.buttonLinkedIn{
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: #3270cd;
+    border: solid 1px #3a70dc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    transition: all .1s ease-in-out;
+    margin-top: .5rem;
+    font-family: semibold;
+
+}
+
+.buttonLinkedIn:hover{
+    background-color: #4783db;
+    border: solid 1px #3a70dc;
+}
+
+.buttonCV{
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: #3a53d3;
+    border: solid 1px #3061c3;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    transition: all .1s ease-in-out;
+    margin-top: .5rem;
+    font-family: semibold;
+}
+
+.buttonCV:hover{
+    background-color: #5066d7;
+    border: solid 1px #3061c3;
+}
+.socialLinks{
+    display: flex;
+    display: grid;
+    width: 50%;
+}
+
+.gridBtn{
+    margin-left: 5rem;
+  
+}
