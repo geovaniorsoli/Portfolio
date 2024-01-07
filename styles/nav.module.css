@@ -1,0 +1,45 @@
+.navbackground{
+    width: 50%;
+    margin: 1rem auto;
+    border-radius: 10px;
+    padding: .15rem;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    background-color: rgba(45, 44, 44, 0.717);
+    border: solid 1px #3c3939;
+    position: sticky;
+    top: 0;
+}
+
+.link{
+    color: #ffffff;
+    font-family: semibold;
+    font-size: 18px;
+    margin: 1rem;
+    align-items: center;
+    display: flex;
+    transition: all .1s ease-in-out;
+}
+
+.link:hover{
+    color: #c6c6c6;
+    font-family: semibold;
+}
+
+
+.navbarButtonMobile{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 123, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    color: white;
+}
+
+
+@media (max-width:600px){
+    .navbackground{
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 0px;
+        padding: 1rem;
+    }
+}
+
+

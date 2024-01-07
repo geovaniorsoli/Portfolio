@@ -1,0 +1,27 @@
+.title{
+    color:#006FEE;
+    font-family: semibold;
+    margin-bottom: .5rem;
+}
+
+
+.subtitle{
+    color:#E0E0E0;
+    font-family: regular;
+    text-align: justify;
+    margin-bottom: 2rem;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    width: 50%;
+    margin: 10rem auto;
+}
+
+.img{
+    margin-bottom: 1rem;
+}
