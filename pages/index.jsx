@@ -4,6 +4,7 @@ import Sobre from "../components/Sobre"
 import Home from "../components/Home"
 import Projeto from "../components/Projetos"
 import Contato from "../components/Contato"
+import Footer from "../components/Footer"
 
 export default function app() {
 
@@ -14,6 +15,7 @@ export default function app() {
     <Sobre />
     <Projeto/>
     <Contato />
+    <Footer />
     </>
   )
 }

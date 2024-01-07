@@ -7,7 +7,7 @@
 
 /* card */
 .Card{
-    background-color: rgb(36, 36, 36);
+    background-color: #1E1E1E;
     color: white;
     width: 50%;
     padding: 50px;
@@ -66,3 +66,7 @@
     margin-top: 10rem;
 }
 
+.Projeto{
+    background-color: #161616;
+    padding: 40px;
+}

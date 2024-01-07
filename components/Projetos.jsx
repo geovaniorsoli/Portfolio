@@ -4,7 +4,7 @@ import style from "../styles/projeto.module.css"
 import img from "../public/img/preto.png"
 export default function Projeto() {
     return (
-        <>
+        <div className={style.Projeto}>
             <div className={style.containerCenter}>
                 <h1 className={style.title}> PROJETOS </h1>
             </div>
@@ -85,7 +85,7 @@ export default function Projeto() {
 
 
             
-        </>
+        </div>
 
         
     )
