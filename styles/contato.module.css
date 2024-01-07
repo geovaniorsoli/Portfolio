@@ -138,3 +138,17 @@
     margin-left: 5rem;
   
 }
+
+/* alert */
+.alertaCopiado{
+    transition: all .1s ease-in-out;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 1px solid #245d36;
+    background-color: #11710e;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-family: semibold;
+}

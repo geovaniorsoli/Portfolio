@@ -2,7 +2,7 @@ import { useState } from 'react'
 import style from '../styles/contato.module.css'
 
 export default function Contato() {
-
+    //trocar texto do botao ao passar o mouse
     const textoOriginal = {
         github: 'Github',
         email: 'Email',
@@ -22,16 +22,29 @@ export default function Contato() {
     const mouseOn = (btn) => {
         const novoTxt = {
             ...btnTxt,
-            [btn]: TextoIndicado[btn] 
+            [btn]: TextoIndicado[btn]
         }
         setBtnTxt(novoTxt)
     }
 
     const mouseOff = () => {
-        setBtnTxt({...textoOriginal })
+        setBtnTxt({ ...textoOriginal })
     }
 
+    //copiar elemento para area de transfencia
+    const [copiado, setCopiado] = useState(false)
 
+    const copiarParaArea = () => {
+        navigator.clipboard.writeText('geovanispop@gmail.com').then(() => {
+            SetMostrarAlerta(true)
+            setTimeout(() => {
+                SetMostrarAlerta(false)
+            }, 2000)
+        });
+    };
+
+    //mostrat alerta
+    const [mostrarAlerta, SetMostrarAlerta] = useState(false)
     return (
         <div className={style.body}>
 
@@ -63,13 +76,21 @@ export default function Contato() {
                                         className={style.buttonGithub}>
                                         {btnTxt.github}
                                     </a>
-                                    <a href='#'
+                                    <a
                                         onMouseOver={() => mouseOn('email')}
+                                        onClick={copiarParaArea}
                                         onMouseOut={mouseOff}
                                         className={style.buttonEmail}>
                                         {btnTxt.email}
                                     </a>
-                                    <a href='#'
+
+                                    {mostrarAlerta && (
+                                        <div className={style.alertaCopiado}>
+                                            Copiado para a área de transferência.
+                                        </div>
+                                    )}
+
+                                    <a href='https://br.linkedin.com/in/geovani-orsoli-6b8481223'
                                         onMouseOver={() => mouseOn('linkedin')}
                                         onMouseOut={mouseOff}
                                         className={style.buttonLinkedIn}>
@@ -77,7 +98,8 @@ export default function Contato() {
                                     </a>
                                     <h1 className={style.title2}>CURRICULO</h1>
 
-                                    <a href='#'
+                                    <a href='/cv/Geovani Orsoli Gongora (CV).pdf'
+                                        download
                                         onMouseOver={() => mouseOn('cv')}
                                         onMouseOut={mouseOff}
                                         className={style.buttonCV}>
